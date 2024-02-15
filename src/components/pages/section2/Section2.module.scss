@@ -1,0 +1,13 @@
+.section2 {
+	.content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img {
+			@media (max-width: 767px) {
+				width: 100%;
+				height: 15rem;
+			}
+		}
+	}
+}

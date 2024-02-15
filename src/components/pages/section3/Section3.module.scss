@@ -1,0 +1,33 @@
+.Section3 {
+	margin-top: 2.5rem;
+	background: rgb(255, 63, 98);
+	transform: rotate(-1deg);
+	height: 6rem;
+	// @media (max-width: 767px) {
+	// }
+	.content {
+		display: flex;
+		justify-content: center;
+		.cards {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 1000px;
+			gap: 1rem;
+			@media (max-width: 767px) {
+				display: flex;
+				flex-direction: column;
+			}
+			img {
+				margin-top: 2rem;
+				width: auto;
+				height: 2rem;
+				@media (max-width: 767px) {
+					width: auto;
+					height: 1.1rem;
+					display: none;
+				}
+			}
+		}
+	}
+}
